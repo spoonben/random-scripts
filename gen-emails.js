@@ -16,7 +16,7 @@
     while(number > 0) {
       var genEmail = [
         email[0],
-        '-',
+        '+',
         crypto.randomBytes(10).toString('hex'),
         '@',
         email[1]
